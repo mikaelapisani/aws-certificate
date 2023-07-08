@@ -65,7 +65,7 @@ Autograph , scatterplot, heatmap, correlations, histograms, line charts over tim
 - nominal: no order (colors)
 - binary: 0 o 1
 
-### Transformations**
+### Transformations
 
 - Polynomial transformation x→ x^2 if degree is too high → risk of overfitting
 - Radial basis function → transform to a center - is a real-valued function whose value depends only on the distance between the input and some fixed point.

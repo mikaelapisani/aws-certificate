@@ -62,7 +62,7 @@ max_runtime_in_seconds=1200,
 volume_size_in_gb=100)
 ```
 
-`"**dataset_type**"` – (Required) Format of the dataset. Valid values are `"text/csv"`
+`"dataset_type"` – (Required) Format of the dataset. Valid values are `"text/csv"`
  for CSV, `"application/jsonlines"`
  for JSON Lines, `application/x-parquet`
  for Apache Parquet, and `application/x-image`
@@ -594,14 +594,14 @@ SageMaker provides distributed training libraries and supports various distribut
 
 ```python
 
-*from sagemaker.framework import Framework
+from sagemaker.framework import Framework
 
 estimator = Framework(
     ...,
     instance_count=2,
     instance_type="ml.p4d.24xlarge",
     distribution={"smdistributed" : {"dataparallel" : {"enabled" : True}}}
-)*
+)
 ```
 
 **Where to run?**
