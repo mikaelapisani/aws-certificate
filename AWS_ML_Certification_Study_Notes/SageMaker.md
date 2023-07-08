@@ -815,4 +815,4 @@ register metrics CPU, memory, ground through , invocations, latency , log files
 
 **Protecting data in transit -** when creating training job enable **inter-container encryption** (checkbox or can be specified by SageMaker API). For use cases in the healthcare sector, the best practice for security is to encrypt communication between the nodes.
 
-[Continue to MLOps section](MLOps%20b99001110c7b4b098b532522712695a8.md)
+[Continue to MLOps section](MLOps.md)
