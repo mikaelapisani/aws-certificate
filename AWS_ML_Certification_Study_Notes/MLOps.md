@@ -2,7 +2,7 @@
 
 **Build machine learning solutions for performance, availability, scalability, resiliency, and fault tolerance.**
 
-## **Amazon CloudWatch**
+## Amazon CloudWatch
 
 monitors your AWS resources and the applications that you run on AWS in real time. Collect and track metrics, create customized dashboards, and set alarms that notify you or take actions when a specified metric reaches a threshold that you specify. 
 
@@ -10,7 +10,7 @@ enables you to **monitor**, store, and access your **log files** from EC2 instan
 
 CloudWatch events - delivers a near real-time stream of system events that describe changes in AWS resources. 
 
-## **AWS CloudTrail**
+## AWS CloudTrail
 
 **captures API** calls and related events made by or on behalf of your AWS account and delivers the log files to an Amazon S3 bucket that you specify.
 
@@ -18,48 +18,48 @@ CloudWatch events - delivers a near real-time stream of system events that descr
 rolling fashion
 - Amazon SNS: You can be notified when CloudTrail publishes new log files to your Amazon S3 bucket.
 
-## **AWS GuardDuty**
+## AWS GuardDuty
 
  threat detection service that continuously monitors your AWS accounts and workloads for attacks.
 
-## **Trusted Advisor**
+## Trusted Advisor
 
  ****make recommendations to save money
 
-## **VPC flow logs**
+## VPC flow logs
 
 if enabled capture information about IP traffic  
 
-### **AWS Management**
+### AWS Management
 
 console for audit 
 
 - Multiple regions, Multiple AZs
 - Auto Scaling groups
 
-## **Containers**
+## Containers
 
 - Dockerfile
 - Docker Image
 - Registry
 
-### **Amazon Elastic Container Registry (Amazon ECR)**
+### Amazon Elastic Container Registry (Amazon ECR)
 
 Registry for docker images in AWS 
 
-### **Amazon Elastic Container Service (Amazon ECS)**
+### Amazon Elastic Container Service (Amazon ECS)
 
-### **Amazon Elastic Kubernetes Service (Amazon EKS)**
+### Amazon Elastic Kubernetes Service (Amazon EKS)
 
-## **AWS Batch**
+## AWS Batch
 
 AWS Batch plans, schedules, and executes your batch computing workloads across the full range of AWS compute services and features, such as Amazon EC2 and Spot Instances
 
-## **AWS Lambda**
+## AWS Lambda
 
- ****is a compute service that lets you run code without provisioning or managing servers.
+is a compute service that lets you run code without provisioning or managing servers.
 
-## **AWS Fargate**
+## AWS Fargate
 
 AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on building applications without managing servers. AWS Fargate is compatible with both Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS)
 
@@ -71,7 +71,7 @@ AWS Fargate is a serverless, pay-as-you-go compute engine that lets you focus on
 
  s your one-stop shop for deep learning in the cloud 
 
-## **Golden image**
+## Golden image
 
   ****A golden AMI is an AMI that you standardize through configuration, consistent security patching, and hardening
 
@@ -103,7 +103,7 @@ EBS for HDFS
 
 **Security** - IAM policies and roles, Kebreros, SSH 
 
-## **Spark**
+## Spark
 
 SparkContext → Cluster manager → Executors → Tasks  
 

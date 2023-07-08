@@ -21,7 +21,7 @@ partition by folders
 
 encryption types: SS-E (handle by AWS), KMS (user knows key, more secure), SSE-C (user manage encryption) Client Side Encryption (outside AWS)  
 
-**Avro →** streaming,  serialization  ****
+**Avro →** streaming,  serialization  
 
 **DynamoDB →** NOSql 
 
@@ -102,17 +102,17 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **AI2I →** augmented human AI for Rekognition and Texextract 
 
-**DeepLens →** camera ****
+**DeepLens →** camera 
 
 **ContactLens →** call center 
 
 **TorchServer →** torch framework 
 
-**AWS Neuron →** inference ****chip 
+**AWS Neuron →** inference chip 
 
 **Panorama →** computer vision at the edge 
 
-**AWS Componser  →** music ****
+**AWS Componser  →** music 
 
 ## SageMaker
 
@@ -122,7 +122,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **data Wrangler →** like glue but for SageMaker Studio 
 
-**Bias →** Clarify ****
+**Bias →** Clarify 
 
 **JumpStart →** model zoo 
 
@@ -136,7 +136,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **DeepAR  →** time series , 1 dimension  
 
-**XGboost →** boosting ****tree **,** num_trees, num_class. Decision tree, random forest, xgboost are not sensitive to scale , cpu 1.0 gpu 1.2 
+**XGboost →** boosting tree, num_trees, num_class. Decision tree, random forest, xgboost are not sensitive to scale , cpu 1.0 gpu 1.2 
 
 **LightGBM →** gradient boost , csv
 
@@ -144,7 +144,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **AutoGluon-Tabular →** auto ml , csv 
 
-**Kmeans →** clustering ****
+**Kmeans →** clustering 
 
 **Factorization machines →** for classification and regression , high dimensional sparse datasets, recommender systems , recordio protobuf 
 
@@ -152,7 +152,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **TabTransformer  →** tabular transformer , csv or text 
 
-**KNN →** classifier ****
+**KNN →** classifier 
 
 **Seq2Seq →** machine translation, recordio protobuf
 
@@ -172,7 +172,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **Computer Vision →** object detection, image segmentation 
 
-**RLEstimator →** reinforcement ****
+**RLEstimator →** reinforcement 
 
 **Folders  →** code, input/data, output, model, checkpoints 
 
@@ -184,7 +184,7 @@ Types: ARIMA (stationary, simple) , Auto() ,ETC-(simple), Prophet - (seasonality
 
 **Bayesian Optimization  →** like regression problem 
 
-**Hyperband  →** dynamically reallocate resources ****
+**Hyperband  →** dynamically reallocate resources 
 
 **Docker →** set SAGEMAKER_PROGRAM env variable 
 

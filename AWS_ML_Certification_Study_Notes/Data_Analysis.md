@@ -1,8 +1,8 @@
 # Data Analysis
 
-## **Amazon Athena**
+## Amazon Athena
 
- ****provides a **simplified**, flexible way to analyze petabytes of data where it lives. Is an **interactive query service** that makes it easy to analyze the data stored in Amazon S3 using standard SQL. Athena is **serverless**, so there is no infrastructure to manage, and you pay only for the queries that you run. Supports query federation and UDFs.
+ provides a **simplified**, flexible way to analyze petabytes of data where it lives. Is an **interactive query service** that makes it easy to analyze the data stored in Amazon S3 using standard SQL. Athena is **serverless**, so there is no infrastructure to manage, and you pay only for the queries that you run. Supports query federation and UDFs.
 
 Supports many data formats: csv,l json, orc, parquet, avro , unstructured, semi-structured or structured
 
@@ -18,9 +18,9 @@ TLS between s3 and athena
 
 Athena performs much more efficiently and at lower cost when using **columnar formats** such as **Parquet or ORC.** 
 
-NOT for visualization (QuickSight), not for ETL (Glue)
+NOT for visualizatsion (QuickSight), not for ETL (Glue)
 
-## **Amazon QuickSight**
+## Amazon QuickSight**
 
 build **visualizations**, perform ad-hoc analysis, and quickly get business insights from their data, anytime, on any device. 
 
@@ -36,7 +36,7 @@ connect to different data sources: RDS, redshift, athena, EC2
 
 10 gb space 
 
-**ML** **algorithms** 
+**ML algorithms** 
 
 - Anomaly detection Random CUT Forest
 - Forecasting
@@ -52,7 +52,7 @@ Autograph , scatterplot, heatmap, correlations, histograms, line charts over tim
 
 ## Identify and implement a Data Transformation solution
 
-### **Data types**
+### Data types
 
 **numerical** 
 
@@ -65,7 +65,7 @@ Autograph , scatterplot, heatmap, correlations, histograms, line charts over tim
 - nominal: no order (colors)
 - binary: 0 o 1
 
-### **Transformations**
+### Transformations**
 
 - Polynomial transformation x→ x^2 if degree is too high → risk of overfitting
 - Radial basis function → transform to a center - is a real-valued function whose value depends only on the distance between the input and some fixed point.
@@ -97,7 +97,7 @@ missing value is replaced with the latest or last observed value in the dataset
     - manual
     - Mechanical Turk
 
-## **Scaling**
+## Scaling
 
 If the range is different apply / decision tree, random forest, xgboost are **not sensitive to scale** 
 
@@ -115,7 +115,7 @@ robust scaler
 
 min max scaler
 
-## **Normalization**
+## Normalization
 
 change the range between 0 and 1
 
@@ -123,13 +123,13 @@ Normalization does NOT handle outliers well
 
 **Central Limit Theory:** no matter original distribution, the mean will follow a normal distribution 
 
-## B**inning**
+## Binning
 
 is a data pre-processing method used to minimize the effects of small observation errors.
 
 Quantile bining - to assign the same number of observations to each bin
 
-## **Outliers**
+## Outliers
 
 find variance for each point (distance to the mean) and then the overall 
 
@@ -153,7 +153,7 @@ to be more specific, for example remove color or noise from an image
 
 ## Dimension Reduction
 
-### **PCA - Principal Component Analysis**
+### PCA - Principal Component Analysis
 
 Find patterns based on correlations between features 
 
@@ -163,13 +163,13 @@ explain variance in %
 
 covariance matrix is created and then singular value decomposition SVD 
 
-### **Kernel PCA**
+### Kernel PCA
 
 non-linear transformation - distance from the center to see how the groups are separated 
 
 ![Untitled](Data_Analysis/Untitled%207.png)
 
-### **LDA**
+### LDA
 
 separate 2 classes , supervised assume data is normalized 
 
@@ -185,31 +185,31 @@ extraction / combine original features to generate new ones
 
 # Analyze and visualize data for machine learning
 
-## **historgram**
+## historgram
 
 bar graph-like representation of data that buckets a range of classes into columns along the horizontal x-axis.The vertical y-axis represents the number count or percentage of occurrences in the data for each column.It is used to summarize discrete or continuous data that are measured on an interval scale. 
 .
 
 ![Untitled](Data_Analysis/Untitled%209.png)
 
-## **boxplot**
+## boxplot
 
 A boxplot is a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile [Q1], median, third quartile [Q3] and “maximum”).
 
 ![Untitled](Data_Analysis/Untitled%2010.png)
 
-## **correlation heatmap**
+## correlation heatmap
 
 ![Untitled](Data_Analysis/Untitled%2011.png)
 
-## **Pairs plot**
+## Pairs plot
 
 show the relationship between pairs of features as well as the distribution of one
 of the variables in relation to the other
 
 ![Untitled](Data_Analysis/Untitled%2012.png)
 
-## **scatter plot**
+## scatter plot
 
 ![Untitled](Data_Analysis/Untitled%2013.png)
 

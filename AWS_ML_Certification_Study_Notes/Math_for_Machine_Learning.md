@@ -288,7 +288,7 @@ df=degree of freedom = n -1
 
 ![Screenshot 2023-01-22 at 16.43.23.png](Math_for_Machine_Learning/Screenshot_2023-01-22_at_16.43.23.png)
 
-## ***p* value**
+## *p* value
 
 The ***p* value** is a number, calculated from a statistical test, that describes how likely you are to have found a particular set of observations if the null hypothesis were true.
 

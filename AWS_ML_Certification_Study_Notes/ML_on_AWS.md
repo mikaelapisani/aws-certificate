@@ -1,6 +1,6 @@
 # ML on AWS
 
-## **Amazon Forecast**
+## Amazon Forecast
 
 Combines time series with additional variables 
 
@@ -10,7 +10,7 @@ works with any time series
 
 Concepts: datasets groups, predictors, and forecasts 
 
-### **ARIMA**
+### ARIMA
 
 **stationary** time series
 
@@ -18,7 +18,7 @@ ARIMA acts like a filter to separate the signal from the noise, and then extrapo
 
 **simple** datasets
 
-### **Amazon Forecast CNN-QR**
+### Amazon Forecast CNN-QR
 
 (**CNNs**) - Quantile Regression 
 
@@ -26,13 +26,13 @@ best for **large** datasets
 
 accepts related historical time series data 
 
-### **ETS**
+### ETS
 
 - The ETS algorithm is especially useful for datasets with **seasonality** and other prior assumptions about the data
 - exponential smoothing
 - **simple** datasets <100 time series
 
-### **Prophet**
+### Prophet
 
 - Contain an **extended time period** (months or years) of detailed historical observations (hourly, daily, or weekly)
 - Have multiple **strong seasonalities**
@@ -40,17 +40,17 @@ accepts related historical time series data
 - Have **missing** data points or large outliers
 - Have **non-linear** growth trends that are approaching a limit
 
-### **NPTS**
+### NPTS
 
 - **non-parametric** time series
 - good for **sparse** data or containing many 0s
 - Has variants for **seasonal** / climatological forecast
 
-### **deepAR**
+### deepAR
 
 Amazon Forecast DeepAR+ is a supervised learning algorithm for forecasting scalar **(one-dimensional)** time series using recurrent neural networks (**RNNs**).
 
-## **Amazon Fraud Detector**
+## Amazon Fraud Detector
 
 Build, deploy, and manage fraud detection models
 
@@ -66,7 +66,7 @@ applications: try before you buy , new accounts, online payments
 
 automated code reviews , finds things that you can improve , resource leaks, supports Java and Python 
 
-## **Amazon Comprehend**
+## Amazon Comprehend
 
 Understand valuable insights from **text** within documents. 
 
@@ -76,7 +76,7 @@ For example create a classifier through CreateDocumentClassifier
 
 **extract** **key phrases** (relevant phrases in a sentences), **entities**, language detection, **sentiment** analysis, syntax  
 
-## **Amazon Lex**
+## Amazon Lex
 
 Build **chatbots** with conversational AI
 
@@ -90,7 +90,7 @@ slot value (Pepperoni)
 
 Supports voice and text input 
 
-## **Amazon Transcribe**
+## Amazon Transcribe
 
 convert **speech to text**
 
@@ -104,7 +104,7 @@ custom vocabulary
 
 automatic language identification
 
-## **Amazon Translate**
+## Amazon Translate
 
 **machine translation service** 
 
@@ -112,7 +112,7 @@ csv or TMX format
 
 appropriate for proper names, brand names, etc 
 
-## **Amazon Polly**
+## Amazon Polly
 
 convert **text to audio**
 
@@ -124,13 +124,13 @@ many voices and languages
 
 Lexicons allow you to map specific words and phrases to a specific pronunciation.
 
-## **Amazon Textract**
+## Amazon Textract
 
 extract printed text, handwriting, and data from any document
 
 **OCR**
 
-## **Amazon Rekognition**
+## Amazon Rekognition
 
 offers pre-trained and customizable **computer vision** (CV) models
 
@@ -166,7 +166,7 @@ exploration_weight 0-1 controls relevance
 
 exploration_item_age_cut_off - how far back in time you go 
 
-## **Amazon SageMaker**
+## Amazon SageMaker
 
  framework agnostic for develop and deploy ML models (see [SageMaker](SageMaker.md) section)
 
@@ -184,15 +184,15 @@ Reinforcement learning
 
 **end-to-end** system for monitoring industrial **equipment** and predictive maintenance 
 
-## **Amazon Kendra**
+## Amazon Kendra
 
 **search** engine for internal support 
 
-## **Amazon Augmented AI (AI2I)**
+## Amazon Augmented AI (AI2I)
 
 when using Amazon Rekognition or Textract, you can use Amazon Augmented AI to **get human review** of low-confidence predictions or random prediction samples.
 
-## **AWS DeepLens**
+## AWS DeepLens
 
 **video camera** with pre-trained models 
 

@@ -30,7 +30,7 @@ Business Problem → Data Collection →  Data Preparation  → Data Visualizati
 
 # Select the appropriate model(s) for a given machine learning problem
 
-## **Xgboost**
+## Xgboost
 
 XGBoost is a popular and efficient open-source implementation of the **gradient boosted trees** algorithm. Gradient boosting is a **supervised** learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models. the weak learners are regression trees, and each regression tree maps an input data point to one of its leafs that contains a continuous score. XGBoost minimizes a r**egularized (L1 and L2)** objective function that combines a convex loss function (based on the difference between the predicted and target outputs) and a penalty term for model complexity (in other words, the regression tree functions).
 
@@ -44,15 +44,15 @@ XGBoost is a popular and efficient open-source implementation of the **gradient 
 
 ## Clustering
 
-### **hierarchical**
+### hierarchical
 
 ![Untitled](Modeling/Untitled%202.png)
 
-### **elbow plot**
+### elbow plot
 
 ![Untitled](Modeling/Untitled%203.png)
 
-### **kmeans**
+### kmeans
 
 The k-means clustering algorithm mainly performs two tasks:
 
@@ -71,7 +71,7 @@ discussed in the literature are **Nearest Neighbors (knn)** and **Matrix Factori
 is clearly a supervised method. As for MF, depending on the details of its usage one can
 call it supervised, unsupervised, or semi-supervised.
 
-## **KNN**
+## KNN
 
 supervised method 
 
@@ -148,7 +148,7 @@ when use boosting? high bias
 
 **Fully-connected layers:** also known as linear layers, connect every input neuron to every output neuron and are commonly used in neural networks
 
-### **CNN**
+### CNN
 
 **convolutional layer**
 
@@ -176,7 +176,7 @@ Average pooling : It involves average calculation for each patch of the featur
 
 Architectures: ResNet(Residual networks), LetNet-5 (hand written), GoogleLNet , AlexNet (image classification) 
 
-### **Recurrent Neural Networks**
+### Recurrent Neural Networks
 
 **RNN** Connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes.
 
@@ -189,7 +189,7 @@ time series , sequence data of arbitrary length
 - Vector to Sequence
 - Encoder and Decorder for example machine translation
 
-### **Long short-term memory - LSTM**
+### Long short-term memory - LSTM
 
 has feedback connections.  
 
@@ -265,7 +265,7 @@ what direction should be y to maximize f as quickly as possible? same direction 
 
 # Computation
 
-## **GPU vs. CPU**
+## GPU vs. CPU
 
 While CPUs can process many general tasks in a fast, sequential manner, GPUs use parallel computing to break down massively complex problems into multiple smaller simultaneous calculations.
 
@@ -292,7 +292,7 @@ requires that we not only *update* the architecture but also ***re-train*** 
 
 # Perform hyperparameter optimization
 
-## **Regularization**
+## Regularization
 
 - **Drop out:** **Dropout is a regularization technique** for reducing overfitting in neural networks by preventing complex co-adaptations on training data. It is a very efficient way of performing model averaging with neural networks. The term "dropout" refers to dropping out units (both hidden and visible) in a neural network
 - **L1 - Lasso  - norm 1 :** (Least Absolute Shrinkage and Selection Operator). if *lambda* is zero then we will get back OLS whereas **very large value will make coefficients zero hence it will under-fit.** The key difference between these techniques is that Lasso shrinks the less important feature’s coefficient to zero thus, removing some feature altogether. So, this **works well for** **feature selection** in case we have a huge number of features.
@@ -307,7 +307,7 @@ cost function for L2
 
 ![Untitled](Modeling/Untitled%2019.png)
 
-## **Learning rate**
+## Learning rate
 
 ![Untitled](Modeling/Untitled%2020.png)
 
@@ -321,7 +321,7 @@ small learning rate increase learning time
 - large match size can converge in the wrong solution - Large batch sizes tend to get stuck, at random, inside "local minima" instead of the correct solution.
 - if you have small batch size , you need small learning rate
 
-## **Model initialization**
+## Model initialization
 
 - Tree-based models (# of trees, # of levels)
 - Linear models (learning rate)
@@ -339,7 +339,7 @@ when the slope is close to zero becomes a problem
 
 # Evaluate machine learning models
 
-## **Metrics for Classification**
+## Metrics for Classification
 
 ![Untitled](Modeling/Untitled%2021.png)
 
@@ -385,7 +385,7 @@ Specificity = FP/(TN + FP)
 
 ![Untitled](Modeling/Untitled%2024.png)
 
-## **Mertics for regression**
+## Mertics for regression
 
 **Loss function** 
 
@@ -419,7 +419,7 @@ If the residuals show a curved pattern, it indicates that a linear model capture
 
 ![Untitled](Modeling/Untitled%2030.png)
 
-# **Avoid Overfitting strategies**
+# Avoid Overfitting strategies
 
 - **Overfitting:** model is too complex, fits the training data too well (high variance)
 - **Underfitting:** model is too simple, not uses enough features (high bias)

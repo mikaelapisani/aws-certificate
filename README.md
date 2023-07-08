@@ -6,7 +6,7 @@
 
 [Data Analysis](AWS_ML_Certification_Study_Notes/Data_Analysis.md)
 
-[**ML on AWS** ](AWS_ML_Certification_Study_Notes/ML_on_AWS.md)
+[ML on AWS](AWS_ML_Certification_Study_Notes/ML_on_AWS.md)
 
 [Modeling](AWS_ML_Certification_Study_Notes/Modeling.md)
 

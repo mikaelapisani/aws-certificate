@@ -2,19 +2,19 @@
 
 # Storage
 
-## **Amazon EBS**
+## Amazon EBS
 
 Amazon Elastic Block Store  block level storage volumes for EC2 instances.
 
-**Amazon Elastic File System (Amazon EFS)** 
+## Amazon Elastic File System (Amazon EFS)
 
 automatically grows and shrinks as you add and remove files.
 
-## **Amazon FSx**
+## Amazon FSx
 
 makes it easy and cost-effective to launch, run, and scale feature-rich, high-performance **file systems** in the cloud.
 
-## **Amazon Redshift**
+## Amazon Redshift
 
 Fully managed, **petabyte-scale data warehouse** service in the cloud. You can start with just a few hundred gigabytes of data and **scale to a petabyte** or more. This allows you to use your data to gain new insights for your business and customers.
 
@@ -23,7 +23,7 @@ Fully managed, **petabyte-scale data warehouse** service in the cloud. You can s
 - Data warehouse, sql analytics, **OLAP** -online analytical processing
 - Load data from S3 to Redshift / Redshift Spectrum (access S3 without loading the data)
 
-## **Amazon S3**
+## Amazon S3
 
 Amazon Simple Storage Service is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
@@ -82,17 +82,17 @@ Use tags to restrict access to certain files in S3
 
 VPC Endpoint Gateway → allow traffic go stay within your VPC (instead of going through public web )
 
-## **Apache Avro ****
+## Apache Avro 
 
 Is the leading **serialization** format for record data,  **streaming** data pipelines
 
-## **Amazon DynamoDB**
+## Amazon DynamoDB
 
 is a fully managed, **serverless**, key-value **NoSQL** database designed to run high-performance applications at any scale. 
 
 useful to store a ML model to be served by an application  
 
-## **RDS/Aurora**
+## RDS/Aurora
 
 Relational DB (MySQL, SQL Server, Oracle, Postgres, Aurora, MariaDB)
 
@@ -122,16 +122,16 @@ caching mechanism
 
 # Data Ingestion
 
-## **Data types**
+## Data types
 
 - sequential, tabular, matrix
 - text, images, tabular, videos, audio, files
 - structured, unstructured
 - time series
 
-## **Tools**
+## Tools
 
-### **AWS Glue**
+### AWS Glue
 
 **Serverless** **data integration service** that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
 
@@ -142,7 +142,7 @@ caching mechanism
 - integratet with athena or redshift
 - underlying platform for Glue ETL - serverless Apache Spark platform
 
-**Glue ETL** 
+### Glue ETL
 
 - Code is Python or Scala
 - **better to transform csv to Parquet saving data in S3**
@@ -160,13 +160,13 @@ caching mechanism
 - optimal quantity and type based on volume and requirements
 - no need to manage clusters, fully serverless
 
-### **Amazon** **Kinesis**
+### Amazon Kinesis
 
 Alternative to Apache Kafka
 
 ![Untitled](Data_Engineering/Untitled.png)
 
-### **Amazon Kinesis Data Streams**
+### Amazon Kinesis Data Streams
 
  **Serverless** **streaming data service** that makes it easy to capture, process, and store data streams at any scale.
 
@@ -189,7 +189,7 @@ You can use Kinesis to **ingest** everything from videos, IoT telemetry data, ap
 - Provision mode: pay per shard provisioned
 - On-demand mode: when you don’t know capacity in advance, pay per stream per hour. Autoscaling
 
-### **Amazon Kinesis Data Firehose**
+### Amazon Kinesis Data Firehose
 
  **Extract, transform, and load (ETL)** **service** that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services. 
 
@@ -254,7 +254,7 @@ Use case: consumer Docker in Fargate and save in DynamoDB
 
 **Kinesis Video Stream → real time video stream**
 
-### **Amazon** **Data Pipeline**
+### Amazon Data Pipeline
 
 **Move data between** different **AWS** compute and storage services, as well as on-premises data sources, at specified intervals. 
 
@@ -278,7 +278,7 @@ Data Pipeline vs Glue → Glue - ETL Data Pipeline move data
 
 can be used to train a ML model - example - start → train  →save  → inference
 
-### **AWS Database Migration Service - DMS**
+### AWS Database Migration Service - DMS
 
 migrate data from your database that is on-premises, on an Amazon Data base (RDS, Aurora, MongoDB, S3). **DMS does NOT transfer any transformation.** 
 
